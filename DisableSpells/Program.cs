@@ -103,10 +103,10 @@ namespace DisableSpells
                 AvailableSpell = SpellSlot.W
             });
             
-                        Spells.Add(new SpellStruct
+            Spells.Add(new SpellStruct
             {
                 ChampionName = "Tristana",
-                AvailableSpell = SpellSlot.W
+                AvailableSpell = SpellSlot.Q
             });
 
             /*
