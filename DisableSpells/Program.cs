@@ -124,7 +124,7 @@ namespace DisableSpells
              * -> Lulu: OnAttack: Lulu AA becomes her Q and Pix also CS
              */
 
-            Config = new Menu("Exploit", "Exploit", true);
+            Config = new Menu("Exploit1", "Exploit1", true);
             Config.AddSubMenu(new Menu("Disable", "Disable"));
             foreach (var hero in ObjectManager.Get<Obj_AI_Hero>().Where(hero => !hero.IsMe))
             {
@@ -135,7 +135,7 @@ namespace DisableSpells
             }
             Config.AddToMainMenu();
 
-            Game.PrintChat("Exploit loaded!");
+            Game.PrintChat("Exploit1 loaded!");
             Game.OnGameUpdate += Game_OnGameUpdate;
         }
 
